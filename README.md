@@ -49,8 +49,8 @@ mysql:5.7.21
 ```bash
 docker run -d --link bookstack_db_:mysql \
 -p 8080:8080 \
---name bookstack_21.05.2 \
-solidnerd/bookstack:21.05.2
+--name bookstack_21.10.3 \
+solidnerd/bookstack:21.10.3
 ```
 
 #### Docker 1.9+
@@ -82,8 +82,8 @@ docker run -d --net bookstack_nw \
 -e DB_USERNAME=bookstack \
 -e DB_PASSWORD=secret \
 -p 8080:8080 \
---name="bookstack_21.05.2" \
- solidnerd/bookstack:21.05.2
+--name="bookstack_21.10.3" \
+ solidnerd/bookstack:21.10.3
 ```
 
 #### Volumes
